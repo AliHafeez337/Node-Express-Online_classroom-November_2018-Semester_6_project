@@ -1,0 +1,15 @@
+extend layout
+    
+block content
+    div(class='container')
+        br
+        h1 Login
+        form(method="POST", action="/student/login")
+            #form-group
+                label Username
+                input.form-control(name="username", type="text")
+            #form-group
+                label Password
+                input.form-control(name="password", type="password")
+            br
+            input.btn.btn-danger(type="submit", value="Submit")

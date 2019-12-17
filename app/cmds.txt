@@ -1,0 +1,9 @@
+npm init
+npm install express
+npm install nodemon
+express app
+cd app
+nodemon
+npm install mongoose
+npm install express-messages express-session connect-falsh express-validator --save
+npm install passport passport-local bcryptjs --save
